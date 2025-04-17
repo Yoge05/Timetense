@@ -1,3 +1,25 @@
+⚙️ Tech Stack & Features:
+🛠️ React (v19.1.0) – Fast,component-driven UI
+ 📡 Groq SDK (v0.19.0) – Integrates AI to generate grammar challenges using the LLaMA3 model
+ 🧠 AI-Powered Feedback – Detects grammar errors and suggests correct answers
+ 🔁 Retry Mechanism – Includes exponential backoff & timeout handling for API failures
+ 📦 Modular Structure:
+-components/ – React UI components
+-services/ – API layer with error handling and fallback logic
+-utils/ – Helper functions like array shuffling
+-styles/ – Organized CSS for clean visuals
+ 🧪 Testing Setup – Jest + React Testing Library for UI validation
+ 🌐 Environment Ready – Uses .env for keys and clean config separation
+
+🚀 Key Highlights:
+•Built in one sitting — from concept to deployment
+•AI-integrated grammar activities with JSON-based communication
+•Responsive error handling with fallback challenges
+•Future-ready architecture: clean separation of logic, styling, and services
+•Deployed with dev scripts like npm start, build, and test
+
+This project really tested my speed and focus — learned a ton about API integration, error handling, and structuring a React app efficiently. 😄
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
